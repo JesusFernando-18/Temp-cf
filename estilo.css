@@ -1,0 +1,77 @@
+body {
+    background: url('amigos.jpg')no-repeat center center fixed; 
+    font-family: 'Verdana', sans-serif; 
+    color: #2c3e50; 
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+h1 {
+    color: #00d9ff;  
+    font-size: 2.5rem; 
+    margin-bottom: 20px;  
+}
+
+#resultado {
+    font-weight: bold;
+    font-size: 1.5rem;  
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #007bff;  
+    border-radius: 10px;  
+    background-color: #e3f2fd;  
+    transition: all 0.3s ease; 
+} 
+
+#resultado:hover {
+    background-color: #bbdefb;  
+    transform: scale(1.05);  
+}
+
+.form-label {
+    font-weight: 600;  
+    font-size: 1.1rem;  
+}
+
+.form-range {
+    margin: 20px 0;  
+}
+
+.text-center {
+    margin-bottom: 15px;  
+}
+
+.b-example-divider {
+    border-top: 2px solid #007bff;  
+    margin: 30px 0;  
+}
+
+.container {
+    padding: 30px;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 20px rgba(51, 143, 91, 0.1);  
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;  
+    }
+
+    #resultado {
+        font-size: 1.2rem;  
+    }
+}
+
+
